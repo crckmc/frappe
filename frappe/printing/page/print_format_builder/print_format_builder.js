@@ -774,7 +774,6 @@ frappe.PrintFormatBuilder = Class.extend({
 					
 					if($this.attr("data-reptext")){
 						this.innerText = $this.attr("data-reptext");
-						alert($this.attr("data-reptext"));
 					}
 					
 					data.push(df);
